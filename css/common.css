@@ -1,0 +1,160 @@
+header,section,footer{
+    position: relative;
+}
+
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    padding-top: 80px;
+}
+
+.section_1{
+    max-width: 1920px;
+    height: 950px;
+    margin-top: 180px;
+    overflow: hidden;
+}
+
+.section_2{
+    padding: 148px 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.section_3{
+    padding-bottom: 180px;
+    /* background-color: tan; */
+}
+
+.section_4{
+    padding-bottom: 160px;
+}
+
+.section_5{
+    background-image: url(../img/brand_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    padding-bottom: 40px;
+}
+
+.sec_title{
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 4vw;
+}
+
+.btn{
+    width: 105px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn>a{
+    font-size: 16px;
+    color: #3F4A02;
+}
+
+.btn img{
+    width: 20px;
+    height: 10px;
+}
+
+
+
+/* ==================================================================== 1445 start  */
+
+
+@media all and (max-width:1445px) {
+
+    header{
+        padding-top: 54px;
+    }
+
+   .section_1{
+    margin-top: 119px;
+   }
+
+   .section_2{
+    padding: 100px 0px;
+   }
+
+}
+
+/* ==================================================================== 1294 start  */
+
+
+@media all and (max-width:1294px) {
+
+   .section_4{
+    padding-bottom: 120px;
+    }
+
+ }
+
+/* ==================================================================== 993 start  */
+
+@media all and (max-width:993px) {
+
+    .section_1{
+        height: 600px;
+    }
+    
+}
+
+/* ==================================================================== 879 start  */
+
+
+@media all and (max-width:879px) {
+
+    .section_2{
+        padding: 65px 0px;
+    }
+
+    .section_3{
+        padding-bottom: 100px;
+    }
+
+    .section_4{
+        padding-bottom: 85px;
+    }
+    
+    .btn>a{
+        font-size: 14px;
+    }
+
+}
+
+/* ==================================================================== 675start  */
+
+@media all and (max-width:675px) {
+
+    .section_1{
+        height: 600px;
+    }
+
+        
+    .sec_title{
+        font-size: 35px;
+    }
+
+
+    
+    
+}
+
